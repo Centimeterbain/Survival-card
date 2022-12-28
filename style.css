@@ -1,0 +1,676 @@
+* {
+	box-sizing: border-box;
+/*   border: solid 1px red; */
+}
+
+
+
+body {
+	background: #111;
+	min-height: 100vh;
+  height:1600px;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*開頭*/
+.orange {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("https://centimeterbain.github.io/survivalWeb/bgpic/mon.png");
+  background-size: cover;
+}
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 10vw;
+  height: 40vh;
+}
+
+.title {
+  width: 50%;
+}
+
+.animal{
+  text-align:center;
+  margin-top:20px;
+}
+p {
+	color: #ede0d5;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+/*開頭END*/
+
+
+.gallery {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.cards {
+	position: absolute;
+	width: 14rem;
+	height: 18rem;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cards li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 14rem;
+	height: 18rem;
+	text-align: center;
+	line-height: 18rem;
+	font-size: 2rem;
+	font-family: sans-serif;
+	background-color: #B4A7D6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 0.8rem;
+}
+
+.pic{
+  width: 14rem;
+	height: 18rem;
+  border-radius: 0.8rem;
+}
+
+.a1{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/a1.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.a2{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/a2.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.a3{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/a3.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.a4{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/a4.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.a5{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/a5.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.p1{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/p1.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.p2{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/p2.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.p3{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/p3.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.p4{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/soldier/p4.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp1{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon01.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp2{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon02.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp3{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon03.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp4{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon04.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp5{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon05.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp6{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon06.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp7{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon07.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wp8{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weapon/weapon08.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea1{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_1.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea2{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_2.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea3{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_3.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea4{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_4.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea5{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_5.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea6{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_6.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea7{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_7.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.wea8{
+  background-image:url("https://centimeterbain.github.io/survivalWeb/weather/weather_8.png");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.actions {
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* button {
+  display:inline-block;
+  outline: none;
+  border: none;
+  padding: 8px 14px;
+  background: #414141;
+  background-image: -webkit-linear-gradient(top, #575757, #414141);
+  background-image: -moz-linear-gradient(top, #575757, #414141);
+  background-image: -ms-linear-gradient(top, #575757, #414141);
+  background-image: -o-linear-gradient(top, #575757, #414141);
+  background-image: linear-gradient(to bottom, #575757, #414141);
+  text-shadow: 0px 1px 0px #414141;
+  -webkit-box-shadow: 0px 1px 0px 414141;
+  -moz-box-shadow: 0px 1px 0px 414141;
+  box-shadow: 0px 1px 0px 414141;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 auto 10px;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  padding: 12px 25px;
+  font-family: "Signika Negative", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 18px;
+}
+ */
+/* button:hover {
+  background: #57a818;
+  background-image: -webkit-linear-gradient(top, #57a818, #4d9916);
+  background-image: -moz-linear-gradient(top, #57a818, #4d9916);
+  background-image: -ms-linear-gradient(top, #57a818, #4d9916);
+  background-image: -o-linear-gradient(top, #57a818, #4d9916);
+  background-image: linear-gradient(to bottom, #57a818, #4d9916);
+  text-shadow: 0px 1px 0px #32610e;
+  -webkit-box-shadow: 0px 1px 0px fefefe;
+  -moz-box-shadow: 0px 1px 0px fefefe;
+  box-shadow: 0px 1px 0px fefefe;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 400;
+} */
+
+a {
+  color: #88ce02;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*頁尾*/
+.pagedown{
+  position: fixed;
+bottom: 0px;
+}
+
+
+.down {
+  position: relative;
+  top:100%;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+.say {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 80%;
+  min-height: 50px;
+  z-index: 1;
+}
+.larrow {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.say:hover::after {
+  position: absolute;
+  left: 7.5vw;
+  bottom: 2vh;
+  z-index: 1;
+  color: #fff;
+  font-size: 0.8em;
+  background: #828183;
+  padding: 0px;
+  border-radius: 5px;
+  content: "點我去遊戲說明\A( •̀ ω •́ )✧";
+  white-space: pre;
+}
+
+.fin {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 30%;
+  min-height: 50px;
+  z-index: 1;
+}
+.home {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.fin:hover::after {
+  position: absolute;
+  left: 50%;
+  bottom: -3.5vh;
+  transform: translate(-50%);
+  z-index: 1;
+  color: #fff;
+  font-size: 0.8em;
+  background: #828183;
+  padding: 0px;
+  border-radius: 5px;
+  content: "點我回到首頁\A( •̀ ω •́ )✧";
+  white-space: pre;
+}
+
+.card {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 80%;
+  min-height: 50px;
+  z-index: 1;
+}
+.rarrow {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.card:hover::after {
+  position: absolute;
+  right: 7.5vw;
+  bottom: 2vh;
+  z-index: 1;
+  color: #fff;
+  font-size: 0.8em;
+  background: #828183;
+  padding: 0px;
+  border-radius: 5px;
+  content: "點我去背景故事\A( •̀ ω •́ )✧";
+  white-space: pre;
+}
+
+
+
+/* 提示框 */
+.pic {
+  width: 14rem;
+  height: 18rem;
+  border-radius: 0.8rem;
+}
+
+
+
+
+
+#window-pop {
+  background: white;
+  width: 70%;
+  z-index: 1;
+  margin: 60% auto;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+.window-content {
+  width: auto;
+  height: 260px;
+  line-height: 200px;
+  overflow: auto;
+  display: flex;
+}
+.windowpic {
+  width: 11rem;
+  height: 14rem;
+  border-radius: 0.8rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  object-fit:contain;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-size:1em;
+}
+small{
+  font-size:0.8em;
+}
+
+#a1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#a2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#a3 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#a4 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#a5 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#p1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#p2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#p3 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#p4 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wp1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wp2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wp3 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wp4 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wp5 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wp6 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wp7 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wp8 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wea1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wea2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wea3 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wea4 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wea5 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wea6 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wea7 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wea8 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
