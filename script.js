@@ -289,7 +289,7 @@ function detial_wea8() {
                     popup_window.style.display = "none";}}}
 
 
-$(function () {
+$(window).ready(function () {
 setTimeout(function () {
 $(".loading-warpper").fadeOut(500);
 },2000);
